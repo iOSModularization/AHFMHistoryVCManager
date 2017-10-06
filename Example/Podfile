@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMHistoryVCManager_Example' do
+  pod 'AHFMHistoryVCManager', :path => '../'
+
+  target 'AHFMHistoryVCManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
