@@ -1,0 +1,45 @@
+PODS:
+  - AHDataModel (0.3.4)
+  - AHFMAudioPlayerVCServices (0.1.0):
+    - AHFMServices
+  - AHFMBottomPlayerServices (0.1.0):
+    - AHFMServices
+  - AHFMDataCenter (0.1.4):
+    - AHDataModel
+    - UIDeviceExtension
+  - AHFMHistoryVCManager (0.1.0):
+    - AHFMAudioPlayerVCServices
+    - AHFMBottomPlayerServices
+    - AHFMDataCenter
+    - AHFMHistoryVCServices
+    - AHFMModuleManager
+    - AHServiceRouter
+  - AHFMHistoryVCServices (0.1.0):
+    - AHFMServices
+  - AHFMModuleManager (0.2.0)
+  - AHFMServices (0.3.0)
+  - AHServiceRouter (0.5.3)
+  - UIDeviceExtension (0.1.0)
+
+DEPENDENCIES:
+  - AHFMHistoryVCManager (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMHistoryVCManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHDataModel: 9a18eaf4b7d7e82653cabd9fad3442879ec3ef5b
+  AHFMAudioPlayerVCServices: 27bdded45ce340f6bf0265264e64ee2fd26f6d57
+  AHFMBottomPlayerServices: 62e83815ed8969376d047556382931cc46841de5
+  AHFMDataCenter: 9108db39294357a496129fb33371458f3a4335a6
+  AHFMHistoryVCManager: 2cbc325613e9dcaccd19d8bb4e7ebbdb2d747480
+  AHFMHistoryVCServices: 8d3a6de8ab3c5fd13305b2a914134e675d526541
+  AHFMModuleManager: 301c8a5945a301528d5cba55e4809428ef896141
+  AHFMServices: 7c2c52fd7bd0b604fdab05cc9adb13129c218b60
+  AHServiceRouter: b7b49e712cf8d697ded8c48151cfcd2ee103a562
+  UIDeviceExtension: 53d1d2177714a3e434e755b6c0fb66678595fce4
+
+PODFILE CHECKSUM: ac7067d5875e366bd61539b07269f22a5de59b71
+
+COCOAPODS: 1.3.0.beta.2
